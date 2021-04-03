@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(37, 39%, 91%);
+    font-family: Avenir, Arial, sans-serif;
+}
+
+nav {
+    background-color: hsl(211, 66%, 14%);
+    color: hsl(35, 40%, 91%);
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 120px;
+}
+
+#hamburger {
+    width: 30px;
+    display: block;
+}
+
+#hamburger:hover {
+    cursor: pointer;
+}
+
+.nav-container {
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container ul {
+    display: none;
+}
+
+
+@media screen and (min-width: 576px) {
+    #hamburger {
+        display: none;
+    }
+
+    .nav-container ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        flex-basis: 500px;
+        justify-content: space-between;
+
+}
+
+    .nav-container li:hover {
+        cursor: pointer;
+    }
+
+}
