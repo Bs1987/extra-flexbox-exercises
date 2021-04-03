@@ -43,7 +43,7 @@ h1 {
     position: relative;
 }
 
-.highlight:hover::before {
+.highlight::before {
     display: block;
     content: "Dit is een latijns woord";
 
@@ -60,7 +60,7 @@ h1 {
     left: calc(50% - 100px);
 }
 
-.highlight:hover::after {
+.highlight::after {
     content: "";
     display: block;
 
