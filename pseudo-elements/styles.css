@@ -33,12 +33,12 @@ h1 {
 
 .compliment p::before {
     display: inline;
-    content: '\0022';
+    content: "\0022";
 }
 
 .compliment p::after {
     display: inline;
-    content: '\0022';
+    content: "\0022";
 }
 
 
@@ -48,7 +48,11 @@ h1 {
 }
 
 .highlight:hover {
-    display: inline-block;
+
+}
+
+.highlight:hover::before {
+    display: block;
     content: "Dit is een latijns woord";
     height: 20px;
     background-color: hsl(29, 100%, 47%);
@@ -56,10 +60,10 @@ h1 {
     position: relative;
 }
 
-.highlight:hover::before {
+.highlight:hover::after {
     content: "";
     display: block;
-    left: 30px;
+    left: 300px;
     top: 20px;
     width: 0;
     height: 0;
@@ -78,6 +82,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer p::after {
+    display: inline;
+    content: "\00a9"
 }
 
 #tooltip {
