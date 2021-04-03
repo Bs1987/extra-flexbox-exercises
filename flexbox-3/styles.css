@@ -4,10 +4,11 @@
 }
 
 body {
-    background-color: hsl(37,39%,91%);
+    background-color: hsl(37, 39%, 91%);
     font-family: Avenir, Arial, sans-serif;
 }
-.logo{
+
+.logo {
     width: 120px;
 }
 
@@ -15,9 +16,11 @@ body {
     width: 50px;
     display: none;
 }
+
 nav {
     color: hsl(35, 40%, 91%);
-    background-color: hsl(211,66%,14%);
+    background-color: hsl(211, 66%, 14%);
+    padding: 20px;
 
     display: flex;
     justify-content: center;
