@@ -20,3 +20,9 @@ body {
     border-radius: 4px;
     box-shadow: 2px 2px 4px hsl(35, 40%, 78%);
 }
+
+#aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 298px;
+}
