@@ -10,7 +10,7 @@ body {
     background-color: hsl(35, 40%, 95%);
     border-radius: 4px;
     display: flex;
-
+    width: 1200px;
 }
 
 .item {
