@@ -14,7 +14,6 @@ body {
 
 .hamburger {
     width: 50px;
-    display: none;
 }
 
 nav {
@@ -26,7 +25,6 @@ nav {
     justify-content: center;
 }
 
-
 .nav-container {
     width: 1200px;
 
@@ -36,9 +34,21 @@ nav {
 }
 
 .nav-container ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    flex-basis: 500px;
-    justify-content: space-between;
+    display: none;
+}
+
+
+@media screen and (min-width: 576px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-container ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        flex-basis: 500px;
+        justify-content: space-between;
+
+    }
 }
