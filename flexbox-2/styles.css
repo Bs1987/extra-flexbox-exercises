@@ -6,15 +6,18 @@ body {
     justify-content: center;
     text-align: center;
 }
+.page-wrapper {
+    width: 1200px;
+}
+
 
 .container {
-    max-width: 1200px;
-
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .item {
+    padding: 16px;
     margin: 16px;
     color: hsl(196,64%,37%);
     background-color: hsl(195,62%,95%);
@@ -22,8 +25,9 @@ body {
     text-align: center;
 
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
     flex-basis: 215px;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
