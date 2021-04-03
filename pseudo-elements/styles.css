@@ -38,11 +38,27 @@ h1 {
 }
 
 .highlight:hover {
-
+    display: inline-block;
+    content: "Dit is een latijns woord";
+    height: 20px;
+    background-color: hsl(29, 100%, 47%);
+    border-radius: 10px;
+    position: relative;
 }
 
 .highlight:hover::before {
+    content: "";
+    display: block;
+    left: 30px;
+    top: 20px;
+    width: 0;
+    height: 0;
 
+    border-top: 10px solid hsl(29, 100%, 47%);
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
 }
 
 footer {
