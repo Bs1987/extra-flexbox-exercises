@@ -31,6 +31,16 @@ h1 {
     padding: 32px;
 }
 
+.compliment p::before {
+    display: inline;
+    content: '\0022';
+}
+
+.compliment p::after {
+    display: inline;
+    content: '\0022';
+}
+
 
 .highlight {
     color: hsl(210, 93%, 19%);
