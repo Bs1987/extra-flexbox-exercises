@@ -1,15 +1,11 @@
 body {
     color: hsl(196, 64%, 37%);
     background-color: hsl(40, 88%, 97%);
+    text-align: center;
 }
 
 .container {
     display: flex;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
 }
 
 .item {
