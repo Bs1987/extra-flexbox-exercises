@@ -38,7 +38,11 @@ h1 {
 }
 
 .highlight:hover {
-    cursor: pointer;
+
+}
+
+.highlight:hover::before {
+
 }
 
 footer {
@@ -48,4 +52,29 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#tooltip {
+    display: flex;
+    flex-basis: 200px;
+    justify-content: center;
+    height: 20px;
+    background-color: hsl(29, 100%, 47%);
+    border-radius: 10px;
+    position: relative;
+}
+
+#tooltip::before {
+    content: "";
+    display: block;
+    left: 30px;
+    top: 20px;
+    width: 0;
+    height: 0;
+
+    border-top: 10px solid hsl(29, 100%, 47%);
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
 }
