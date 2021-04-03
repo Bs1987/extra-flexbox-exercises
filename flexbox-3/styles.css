@@ -10,18 +10,26 @@ body {
     width: 50px;
     display: none;
 }
-
-.nav-container {
-    width: 1200px;
+nav {
     color: hsl(35, 40%, 91%);
     background-color: hsl(211,66%,14%);
 
     display: flex;
+    justify-content: center;
+}
+
+
+.nav-container {
+    width: 1200px;
+
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-container ul {
     display: flex;
     align-items: center;
     list-style-type: none;
+    flex-basis: 500px;
 }
