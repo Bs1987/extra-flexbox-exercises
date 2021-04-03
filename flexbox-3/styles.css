@@ -26,6 +26,9 @@ nav {
     display: block;
 }
 
+#hamburger:hover {
+    cursor: pointer;
+}
 
 .nav-container {
     width: 1200px;
@@ -52,5 +55,11 @@ nav {
         flex-basis: 500px;
         justify-content: space-between;
 
+}
+
+    .nav-container li:hover {
+        cursor: pointer;
     }
+
+
 }
