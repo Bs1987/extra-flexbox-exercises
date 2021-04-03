@@ -9,6 +9,9 @@ body {
 .container {
     background-color: hsl(35, 40%, 95%);
     border-radius: 4px;
+    max-width: 1200px;
+    display: flex;
+
 }
 
 .item {
@@ -16,4 +19,16 @@ body {
     border: 1px solid hsl(35, 40%, 78%);
     border-radius: 4px;
     box-shadow: 2px 2px 4px hsl(35, 40%, 78%);
+    padding: 16px;
+}
+
+#aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 266px;
+
+}
+
+#main {
+
 }
