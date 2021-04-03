@@ -18,32 +18,42 @@ body {
 
 #grid-item1 {
     background-color: hsl(212,43%,65%);
+    grid-area: one;
 }
 #grid-item2 {
     background-color: hsl(208,48%,47%);
+    grid-area: two;
 }
 #grid-item3 {
     background-color: hsl(212,43%,65%);
+    grid-area: three;
 }
 #grid-item4 {
     background-color: hsl(212,43%,65%);
+    grid-area: four;
 }
 #grid-item5 {
     background-color: hsl(212,43%,65%);
+    grid-area: five;
 }
 #grid-item6 {
     background-color: hsl(212,43%,65%);
+    grid-area: six;
 }
 #grid-item7 {
     background-color: hsl(208,48%,47%);
+    grid-area: seven;
 }
 #grid-item8 {
     background-color: hsl(212,43%,65%);
+    grid-area: eight;
 }
 #grid-item9 {
     background-color: hsl(212,43%,65%);
+    grid-area: nine;
 }
 #grid-item10 {
     background-color: hsl(212,43%,65%);
+    grid-area: ten;
 }
 
