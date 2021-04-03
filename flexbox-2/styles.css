@@ -1,12 +1,15 @@
 body {
     color: hsl(196, 64%, 37%);
     background-color: hsl(40, 88%, 97%);
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .container {
     max-width: 1200px;
     display: flex;
+    justify-content: center;
 }
 
 .item {
@@ -16,4 +19,6 @@ body {
     display: flex;
     align-items: flex-end;
     text-align: center;
+    flex-basis: 215px;
+    height: 350px;
 }
