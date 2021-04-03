@@ -4,3 +4,9 @@ columns: 4
 .grid-container {
     width: 900px;
 }
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
