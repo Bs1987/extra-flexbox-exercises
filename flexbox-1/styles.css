@@ -9,6 +9,9 @@ body {
 .container {
     background-color: hsl(35, 40%, 95%);
     border-radius: 4px;
+    width: 1200px;
+    display: flex;
+
 }
 
 .item {
