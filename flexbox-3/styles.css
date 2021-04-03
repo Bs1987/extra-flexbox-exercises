@@ -1,8 +1,9 @@
 body {
     background-color: hsl(37,39%,91%);
+    font-family: Avenir, Arial, sans-serif;
 }
 .logo{
-    width: 300px;
+    width: 120px;
 }
 
 .hamburger {
@@ -10,14 +11,17 @@ body {
     display: none;
 }
 
-.container {
+.nav-container {
     width: 1200px;
     color: hsl(35, 40%, 91%);
     background-color: hsl(211,66%,14%);
 
     display: flex;
+    align-items: center;
 }
 
-.container ul {
+.nav-container ul {
+    display: flex;
+    align-items: center;
     list-style-type: none;
 }
