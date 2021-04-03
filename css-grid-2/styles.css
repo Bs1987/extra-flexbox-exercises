@@ -1,8 +1,13 @@
-rows: 7
-columns: 4
+/*rows: 7*/
+/*columns: 4*/
 
+body {
+    color: white;
+}
 .grid-container {
     width: 900px;
+    background-color: hsl(212,37%,90%);
+
 }
 
 .flex-container {
@@ -10,3 +15,35 @@ columns: 4
     align-items: center;
     justify-content: center;
 }
+
+#grid-item1 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item2 {
+    background-color: hsl(208,48%,47%);
+}
+#grid-item3 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item4 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item5 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item6 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item7 {
+    background-color: hsl(208,48%,47%);
+}
+#grid-item8 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item9 {
+    background-color: hsl(212,43%,65%);
+}
+#grid-item10 {
+    background-color: hsl(212,43%,65%);
+}
+
