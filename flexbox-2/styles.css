@@ -17,17 +17,28 @@ body {
 }
 
 .item {
-    padding: 16px;
-    margin: 16px;
-    color: hsl(196,64%,37%);
-    background-color: hsl(195,62%,95%);
-    height: 350px;
-    text-align: center;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    flex-basis: 215px;
-    flex-grow: 1;
-    flex-shrink: 1;
+}
+
+@media screen and (min-width: 1200px){
+    .container {
+        display: flex;
+        text-align: center;
+    }
+
+    .item {
+        padding: 16px;
+        margin: 16px;
+        color: hsl(196,64%,37%);
+        background-color: hsl(195,62%,95%);
+        height: 350px;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-basis: 215px;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
 }
