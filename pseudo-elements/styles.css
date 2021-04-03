@@ -31,48 +31,47 @@ h1 {
     padding: 32px;
 }
 
-.compliment p::before {
-    display: inline;
-    content: "\0022";
-}
-
+.compliment p::before,
 .compliment p::after {
     display: inline;
     content: "\0022";
 }
 
-
 .highlight {
     color: hsl(210, 93%, 19%);
     font-weight: 400;
-}
-
-.highlight:hover {
-
+    position: relative;
 }
 
 .highlight:hover::before {
     display: block;
     content: "Dit is een latijns woord";
-    height: 20px;
+
     background-color: hsl(29, 100%, 47%);
-    border-radius: 10px;
-    position: relative;
+    color: white;
+    font-weight: 300;
+    border-radius: 4px;
+    padding: 4px;
+    width: 200px;
+    z-index: 1;
+
+    position: absolute;
+    top: -35px;
+    left: calc(50% - 100px);
 }
 
 .highlight:hover::after {
     content: "";
     display: block;
-    left: 300px;
-    top: 20px;
-    width: 0;
-    height: 0;
 
     border-top: 10px solid hsl(29, 100%, 47%);
     border-right: 10px solid transparent;
-    border-bottom: 10px solid transparent;
     border-left: 10px solid transparent;
+    z-index: 1;
+
     position: absolute;
+    bottom: 18px;
+    left: calc(50% - 5px);
 }
 
 footer {
@@ -89,27 +88,3 @@ footer p::after {
     content: "\00a9"
 }
 
-#tooltip {
-    display: flex;
-    flex-basis: 200px;
-    justify-content: center;
-    height: 20px;
-    background-color: hsl(29, 100%, 47%);
-    border-radius: 10px;
-    position: relative;
-}
-
-#tooltip::before {
-    content: "";
-    display: block;
-    left: 30px;
-    top: 20px;
-    width: 0;
-    height: 0;
-
-    border-top: 10px solid hsl(29, 100%, 47%);
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid transparent;
-    position: absolute;
-}
