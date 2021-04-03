@@ -11,6 +11,7 @@ body {
     border-radius: 4px;
     max-width: 1200px;
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -22,9 +23,22 @@ body {
     padding: 16px;
     margin: 16px;
 }
-
 #aside {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 266px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+
+@media screen and (min-width: 575px){
+    .container {
+        flex-direction: row;
+
+    }
+
+    #aside {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 266px;
+    }
 }
